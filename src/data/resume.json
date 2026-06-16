@@ -1,0 +1,188 @@
+{
+  "personal_info": {
+    "name": "Nour CHARGUI",
+    "title": "Cybersecurity Engineering Student",
+    "email": "nourchargui55@gmail.com",
+    "phone": "+216 58401240",
+    "location": "Ben Arous, Tunisia",
+    "linkedin": "https://linkedin.com/in/nour-chargui-098870223",
+    "github": "https://github.com/Nour-chargui",
+    "tagline": "Aspiring Cybersecurity Engineer dedicated to building secure digital ecosystems and innovative AI-driven security solutions.",
+    "skills_short": "AI • Linux • Systems • Cybersecurity • Innovation"
+  },
+  "education": [
+    {
+      "institution": "TEK-UP Private Higher School of Technologies and Engineering",
+      "degree": "Engineering Degree in Cybersecurity",
+      "period": "2025 -- 2028",
+      "location": "Ariana, Tunisia"
+    },
+    {
+      "institution": "Higher Institute of Information and Communication Technologies (ISTIC)",
+      "degree": "Bachelor of Science in Software Engineering",
+      "period": "2021 - 2024",
+      "location": "Borj Cedria, Tunis"
+    },
+    {
+      "institution": "Sadiki High School",
+      "degree": "High School Diploma in Mathematics",
+      "period": "2021",
+      "location": "Tunis"
+    }
+  ],
+  "experience": [
+    {
+      "company": "PAF | POULINA HOLDING GROUP",
+      "role": "Observation Internship",
+      "period": "January 06 - February 02, 2025",
+      "location": "Rades, Tunis",
+      "details": ["Immersion in industry and electrical systems."]
+    },
+    {
+      "company": "Didousoft",
+      "role": "Final Year Project Internship",
+      "period": "February 2024 - May 2024",
+      "location": "Tunis",
+      "details": [
+        "Development of a digital platform for ISET Radès (Vue.js/PHP) with real-time APIs."
+      ]
+    },
+    {
+      "company": "Tunisian Post",
+      "role": "Seasonal Worker: International Accounting Department",
+      "period": "Summer 2023 & Summer 2024",
+      "location": "Tunis, Tunisia",
+      "details": [
+        "Processed and recorded international financial transactions.",
+        "Assisted in reconciling and verifying accounting entries related to international money transfers."
+      ]
+    },
+    {
+      "company": "MMS Consulting",
+      "role": "Frontend Developer Intern",
+      "period": "July 24 - September 15, 2023",
+      "location": "Ariana, Tunis",
+      "details": [
+        "Development of frontend components using Angular."
+      ]
+    },
+    {
+      "company": "IEEE Accounting Platform",
+      "role": "Fullstack Developer (Volunteer)",
+      "period": "July 1st - August 31, 2023",
+      "location": "Remote",
+      "details": [
+        "Collaborative frontend/backend team development using NodeJS and NextJS."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Cyberguard IA",
+      "category": "AI Project",
+      "date": "May 2026",
+      "description": "Designed a cyber analysis platform under a FastAPI/React architecture, utilizing an autonomous AI agent and RAG engine to automate SOC alert triage with a privacy-first approach.",
+      "technologies": ["FastAPI", "React", "AI Agent", "RAG"],
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b25272be?q=80&w=2070&auto=format&fit=crop",
+      "github": "https://github.com/Nour-chargui",
+      "demo": "https://github.com/Nour-chargui",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "title": "CyberSentinel-Security-Platform",
+      "category": "Web Project",
+      "date": "April 2026",
+      "description": "Developed an auto-defensive e-commerce ecosystem. Integrated an intelligent algorithm that computes a user risk score to prevent financial fraud. Designed an admin dashboard featuring real-time log streaming and secure OTP-based account recovery using PHP, JS, MySQL, and Tailwind CSS.",
+      "technologies": ["PHP", "JS", "MySQL", "Tailwind CSS"],
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2070&auto=format&fit=crop",
+      "github": "https://github.com/Nour-chargui",
+      "demo": "https://github.com/Nour-chargui"
+    },
+    {
+      "id": 3,
+      "title": "CyberSafe-Kids",
+      "category": "Java Project",
+      "date": "March 2026",
+      "description": "Created a gamified interactive platform teaching cybersecurity concepts. Built with a clean MVC architecture, an asynchronous network attack simulation engine, and an embedded AI assistant. Leveraged advanced JavaFX animations and JSON formats for dynamic educational content management.",
+      "technologies": ["Java", "JavaFX", "MVC", "JSON"],
+      "image": "https://images.unsplash.com/photo-1523853138873-e14b1e470517?w=800&h=600&fit=crop",
+      "github": "https://github.com/Nour-chargui",
+      "demo": "https://github.com/Nour-chargui"
+    },
+    {
+      "id": 4,
+      "title": "Log Security Monitor",
+      "category": "Linux • Cybersecurity",
+      "date": "February 2026",
+      "description": "Designed a Linux system log analysis tool capable of detecting suspicious login attempts and anomalous activities within /var/log/auth.log files. Utilized Bash scripting and Linux utilities (grep, awk, sed) to automate analysis workflows.",
+      "technologies": ["Bash", "Linux", "Grep", "Awk", "Sed"],
+      "image": "https://images.unsplash.com/photo-1629654297299-c85062213b94749775894758947589?w=800&h=600&fit=crop",
+      "github": "https://github.com/Nour-chargui",
+      "demo": "https://github.com/Nour-chargui"
+    },
+    {
+      "id": 5,
+      "title": "Linux Process Manager",
+      "category": "C • Systems",
+      "date": "January 2026",
+      "description": "Developed a process manager in C for displaying, searching, and terminating Linux system processes via kernel system calls and /proc file system exploration.",
+      "technologies": ["C", "Linux Kernel", "System Calls", "Signals"],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      "github": "https://github.com/Nour-chargui",
+      "demo": "https://github.com/Nour-chargui"
+    },
+    {
+      "id": 6,
+      "title": "VehiScan",
+      "category": "Data Science",
+      "date": "November 2023",
+      "description": "Utilized computer vision techniques and deep learning models to detect vehicles, extract license plate data via OCR, and track movements across video sequences.",
+      "technologies": ["Computer Vision", "Deep Learning", "OCR"],
+      "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d?w=800&h=600&fit=crop",
+      "github": "https://github.com/Nour-chargui",
+      "demo": "https://github.com/Nour-chargui"
+    }
+  ],
+  "skills": {
+    "Programming": ["Python", "Java", "C", "PHP", "JavaScript", "TypeScript", "Bash", "SQL"],
+    "Frontend": ["React", "Next.js", "Angular", "Vue.js", "Tailwind CSS", "Framer Motion"],
+    "Backend": ["Node.js", "FastAPI", "PHP"],
+    "Cybersecurity": ["SOC Analysis", "Log Monitoring", "Network Security", "Risk Assessment", "Linux Security"],
+    "Tools & Others": ["Linux", "Git", "Docker", "MySQL", "JavaFX", "Computer Vision"]
+  },
+  "certifications": [
+    {
+      "name": "PCAP • Associate Python Programmer",
+      "date": "June 2026"
+    }
+  ],
+  "involvement": [
+    {
+      "role": "Guest Member • Education Committee",
+      "organization": "IEEE Vehicular Technology Society",
+      "period": "2026 -- Present"
+    },
+    {
+      "role": "Student Representative • VTS Tunisia Chapter",
+      "organization": "IEEE Tunisia Section",
+      "period": "2025 -- Present"
+    },
+    {
+      "role": "Speaker Coordinator • IASTAM 5.0",
+      "organization": "IEEE",
+      "period": "2025"
+    },
+    {
+      "role": "Member • CS Juniors Committee",
+      "organization": "Tunisia",
+      "period": "2025 -- Present"
+    },
+    {
+      "role": "Founder • IEEE WIE ISTIC SAG",
+      "organization": "ISTIC",
+      "period": "2022"
+    }
+  ]
+}
