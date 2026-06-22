@@ -118,6 +118,7 @@
       "date": "February 2026",
       "description": "Designed a Linux system log analysis tool capable of detecting suspicious login attempts and anomalous activities within /var/log/auth.log files. Utilized Bash scripting and Linux utilities (grep, awk, sed) to automate analysis workflows.",
       "technologies": ["Bash", "Linux", "Grep", "Awk", "Sed"],
+      "image": "/projects/logSecurity.jpg",
       "github": "https://github.com/Nour-chargui",
       "demo": "https://drive.google.com/file/d/1cKyzbGzVc4Lgf4GdBdN_epVHvDJ0e3T_/view?usp=sharing"
     },
@@ -128,6 +129,7 @@
       "date": "January 2026",
       "description": "Developed a process manager in C for displaying, searching, and terminating Linux system processes via kernel system calls and /proc file system exploration.",
       "technologies": ["C", "Linux Kernel", "System Calls", "Signals"],
+      "image": "/projects/linux.png",
       "github": "https://github.com/Nour-chargui",
       "demo": "https://drive.google.com/file/d/19FRjpdmPrKr8XECCsYAsGbXfwfW3trDz/view?usp=sharing"
     },
@@ -138,6 +140,7 @@
       "date": "November 2023",
       "description": "Utilized computer vision techniques and deep learning models to detect vehicles, extract license plate data via OCR, and track movements across video sequences.",
       "technologies": ["Computer Vision", "Deep Learning", "OCR"],
+      "image": "/projects/vehiscan.png",
       "github": "https://github.com/Nour-chargui/vehiscan.git",
       "demo": "https://github.com/Nour-chargui/vehiscan"
     }
