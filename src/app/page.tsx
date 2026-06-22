@@ -40,7 +40,7 @@ export default function Home() {
             <Contact />
           </main>
           <footer className="py-8 text-center border-t border-[var(--border)] text-[var(--foreground)] text-sm opacity-70">
-            <p className="font-mono">© {new Date().getFullYear()} Nour CHARGUI — Built with Next.js & Framer Motion</p>
+            <p className="font-mono">© {new Date().getFullYear()} Nour Chargui — Built with Next.js & Framer Motion</p>
           </footer>
           <NourAIChatbot />
         </div>

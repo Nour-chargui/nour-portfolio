@@ -35,9 +35,10 @@ export function Navbar() {
           href="#"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="text-2xl font-extrabold cyberpunk-gradient glitch-text"
+          className="text-2xl font-extrabold"
         >
-          NOUR.
+          <span className="text-white">Nour</span>
+          <span className="cyberpunk-gradient glitch-text">.</span>
         </motion.a>
 
         {/* Desktop Nav */}

@@ -1,11 +1,53 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, Github, Linkedin, Mail, Download, Sparkles } from "lucide-react";
 import resumeData from "@/data/resume.json";
 
+const TITLES = [
+  "Cybersecurity Engineering Student",
+  "Full Stack Developer",
+  "IEEE Leader"
+];
+
 export function Hero() {
   const { personal_info } = resumeData;
+  const nameParts = personal_info.name.split(" ");
+  const firstName = nameParts[0];
+  const lastName = nameParts.slice(1).join(" ");
+  const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
+  const [isTypingName, setIsTypingName] = useState(true);
+  const [displayFirstName, setDisplayFirstName] = useState("");
+  const [displayLastName, setDisplayLastName] = useState("");
+
+  // Type name effect
+  useEffect(() => {
+    let fnIndex = 0;
+    let lnIndex = 0;
+    const typeInterval = setInterval(() => {
+      if (fnIndex < firstName.length) {
+        setDisplayFirstName(firstName.slice(0, fnIndex + 1));
+        fnIndex++;
+      } else if (lnIndex < lastName.length) {
+        setDisplayLastName(lastName.slice(0, lnIndex + 1));
+        lnIndex++;
+      } else {
+        clearInterval(typeInterval);
+        setIsTypingName(false);
+      }
+    }, 80);
+
+    return () => clearInterval(typeInterval);
+  }, [firstName, lastName]);
+
+  // Rotate titles effect
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTitleIndex((prev) => (prev + 1) % TITLES.length);
+    }, 2500);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
@@ -36,12 +78,28 @@ export function Hero() {
           </p>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
-            <span className="cyberpunk-gradient glitch-text">{personal_info.name}</span>
+            <span className="text-white">{displayFirstName}</span>
+            <span className="text-white">&nbsp;</span>
+            <span className="cyberpunk-gradient glitch-text">{displayLastName}</span>
+            {isTypingName && (
+              <span className="inline-block w-1 h-12 bg-[#00ffff] align-middle ml-1 animate-pulse" />
+            )}
           </h1>
 
-          <h2 className="text-2xl md:text-3xl text-[#e0e7ff] mb-6 font-mono">
-            {personal_info.title}
-          </h2>
+          <div className="h-16 mb-6 flex items-center justify-center">
+            <AnimatePresence mode="wait">
+              <motion.h2
+                key={currentTitleIndex}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                transition={{ duration: 0.4 }}
+                className="text-2xl md:text-3xl text-[#e0e7ff] font-mono"
+              >
+                {TITLES[currentTitleIndex]}
+              </motion.h2>
+            </AnimatePresence>
+          </div>
 
           <p className="text-xl text-[#a5b4fc] mb-10 max-w-2xl mx-auto leading-relaxed">
             {personal_info.skills_short}

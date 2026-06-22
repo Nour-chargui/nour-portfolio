@@ -1,6 +1,6 @@
 {
   "personal_info": {
-    "name": "Nour CHARGUI",
+    "name": "Nour Chargui",
     "title": "Cybersecurity Engineering Student",
     "email": "nourchargui55@gmail.com",
     "phone": "+216 58401240",
@@ -85,8 +85,8 @@
       "description": "Designed a cyber analysis platform under a FastAPI/React architecture, utilizing an autonomous AI agent and RAG engine to automate SOC alert triage with a privacy-first approach.",
       "technologies": ["FastAPI", "React", "AI Agent", "RAG"],
       "image": "https://images.unsplash.com/photo-1550745165-9bc0b25272be?q=80&w=2070&auto=format&fit=crop",
-      "github": "https://github.com/Nour-chargui",
-      "demo": "https://github.com/Nour-chargui",
+      "github": "https://github.com/Nour-chargui/CyberGuard-AI.git",
+      "demo": "https://drive.google.com/file/d/1M_L7DhaqcIrXP7eV4hKdqfqot0o56Rtd/view?usp=sharing",
       "isFeatured": true
     },
     {
@@ -97,8 +97,8 @@
       "description": "Developed an auto-defensive e-commerce ecosystem. Integrated an intelligent algorithm that computes a user risk score to prevent financial fraud. Designed an admin dashboard featuring real-time log streaming and secure OTP-based account recovery using PHP, JS, MySQL, and Tailwind CSS.",
       "technologies": ["PHP", "JS", "MySQL", "Tailwind CSS"],
       "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2070&auto=format&fit=crop",
-      "github": "https://github.com/Nour-chargui",
-      "demo": "https://github.com/Nour-chargui"
+      "github": "https://github.com/Nour-chargui/CyberSentinel-Security-Platform.git",
+      "demo": "https://drive.google.com/file/d/12iQ3u7MLNIZNZDp6g5Te2qecwyGLTZrS/view?usp=sharing"
     },
     {
       "id": 3,
@@ -109,7 +109,7 @@
       "technologies": ["Java", "JavaFX", "MVC", "JSON"],
       "image": "https://images.unsplash.com/photo-1523853138873-e14b1e470517?w=800&h=600&fit=crop",
       "github": "https://github.com/Nour-chargui",
-      "demo": "https://github.com/Nour-chargui"
+      "demo": "https://drive.google.com/file/d/1WgzWDCeK00n9_7m485Ev7h32yDwewnin/view?usp=sharing"
     },
     {
       "id": 4,
@@ -120,7 +120,7 @@
       "technologies": ["Bash", "Linux", "Grep", "Awk", "Sed"],
       "image": "https://images.unsplash.com/photo-1629654297299-c85062213b94749775894758947589?w=800&h=600&fit=crop",
       "github": "https://github.com/Nour-chargui",
-      "demo": "https://github.com/Nour-chargui"
+      "demo": "https://drive.google.com/file/d/1cKyzbGzVc4Lgf4GdBdN_epVHvDJ0e3T_/view?usp=sharing"
     },
     {
       "id": 5,
@@ -131,7 +131,7 @@
       "technologies": ["C", "Linux Kernel", "System Calls", "Signals"],
       "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
       "github": "https://github.com/Nour-chargui",
-      "demo": "https://github.com/Nour-chargui"
+      "demo": "https://drive.google.com/file/d/19FRjpdmPrKr8XECCsYAsGbXfwfW3trDz/view?usp=sharing"
     },
     {
       "id": 6,
@@ -141,8 +141,7 @@
       "description": "Utilized computer vision techniques and deep learning models to detect vehicles, extract license plate data via OCR, and track movements across video sequences.",
       "technologies": ["Computer Vision", "Deep Learning", "OCR"],
       "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d?w=800&h=600&fit=crop",
-      "github": "https://github.com/Nour-chargui",
-      "demo": "https://github.com/Nour-chargui"
+      "github": "https://github.com/Nour-chargui/vehiscan.git",
     }
   ],
   "skills": {
