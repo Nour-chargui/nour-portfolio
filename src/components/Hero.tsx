@@ -130,10 +130,12 @@ export function Hero() {
           </button>
 
           <a
-            href="#"
+            href="/Resume_english_Nour_CHARGUI.pdf"
+            download="Resume_english_Nour_CHARGUI.pdf"
             className="px-8 py-3 border-2 border-[#8b5cf6]/50 text-[#a5b4fc] rounded-full font-bold flex items-center gap-2 hover:bg-[#8b5cf6]/10 transition-all hover:scale-105"
           >
-            <Download size={18} /> Download CV
+            <Download size={18} />
+            Download Resume
           </a>
         </motion.div>
 
