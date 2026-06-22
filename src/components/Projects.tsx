@@ -56,13 +56,13 @@ export function Projects() {
                 </div>
               </div>
               <motion.div
-                whileHover={{ scale: 1.05 }}
-                className="rounded-2xl overflow-hidden border border-[#8b5cf6]/30 shadow-[0_0_30px_rgba(139,92,246,0.2)]"
+                whileHover={{ scale: 1.02 }}
+                className="cyber-image-container rounded-2xl group shadow-[0_0_30px_rgba(139,92,246,0.2)]"
               >
                 <img
                   src={featuredProject.image}
                   alt={featuredProject.title}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover cyber-image"
                 />
               </motion.div>
             </div>
@@ -82,11 +82,11 @@ export function Projects() {
             whileHover={{ y: -8 }}
             className="group relative glass border border-[#8b5cf6]/30 rounded-2xl overflow-hidden hover:border-[#00ffff]/60 transition-all"
           >
-            <div className="overflow-hidden h-48">
+            <div className="cyber-image-container h-48">
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-cover cyber-image"
               />
             </div>
             <div className="p-6 flex flex-col">
