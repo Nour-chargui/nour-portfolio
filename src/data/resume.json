@@ -84,7 +84,7 @@
       "date": "May 2026",
       "description": "Designed a cyber analysis platform under a FastAPI/React architecture, utilizing an autonomous AI agent and RAG engine to automate SOC alert triage with a privacy-first approach.",
       "technologies": ["FastAPI", "React", "AI Agent", "RAG"],
-      "image": "https://images.unsplash.com/photo-1550745165-9bc0b25272be?q=80&w=2070&auto=format&fit=crop",
+      "image": "/projects/cyberguard.jpg",
       "github": "https://github.com/Nour-chargui/CyberGuard-AI.git",
       "demo": "https://drive.google.com/file/d/1M_L7DhaqcIrXP7eV4hKdqfqot0o56Rtd/view?usp=sharing",
       "isFeatured": true
@@ -96,7 +96,7 @@
       "date": "April 2026",
       "description": "Developed an auto-defensive e-commerce ecosystem. Integrated an intelligent algorithm that computes a user risk score to prevent financial fraud. Designed an admin dashboard featuring real-time log streaming and secure OTP-based account recovery using PHP, JS, MySQL, and Tailwind CSS.",
       "technologies": ["PHP", "JS", "MySQL", "Tailwind CSS"],
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2070&auto=format&fit=crop",
+      "image": "/projects/cybersentinel.jpg",
       "github": "https://github.com/Nour-chargui/CyberSentinel-Security-Platform.git",
       "demo": "https://drive.google.com/file/d/12iQ3u7MLNIZNZDp6g5Te2qecwyGLTZrS/view?usp=sharing"
     },
@@ -107,7 +107,7 @@
       "date": "March 2026",
       "description": "Created a gamified interactive platform teaching cybersecurity concepts. Built with a clean MVC architecture, an asynchronous network attack simulation engine, and an embedded AI assistant. Leveraged advanced JavaFX animations and JSON formats for dynamic educational content management.",
       "technologies": ["Java", "JavaFX", "MVC", "JSON"],
-      "image": "https://images.unsplash.com/photo-1523853138873-e14b1e470517?w=800&h=600&fit=crop",
+      "image": "/projects/cybersafekids.jpg",
       "github": "https://github.com/Nour-chargui",
       "demo": "https://drive.google.com/file/d/1WgzWDCeK00n9_7m485Ev7h32yDwewnin/view?usp=sharing"
     },
@@ -118,7 +118,7 @@
       "date": "February 2026",
       "description": "Designed a Linux system log analysis tool capable of detecting suspicious login attempts and anomalous activities within /var/log/auth.log files. Utilized Bash scripting and Linux utilities (grep, awk, sed) to automate analysis workflows.",
       "technologies": ["Bash", "Linux", "Grep", "Awk", "Sed"],
-      "image": "https://images.unsplash.com/photo-1629654297299-c85062213b94749775894758947589?w=800&h=600&fit=crop",
+      "image": "/projects/log-monitor.jpg",
       "github": "https://github.com/Nour-chargui",
       "demo": "https://drive.google.com/file/d/1cKyzbGzVc4Lgf4GdBdN_epVHvDJ0e3T_/view?usp=sharing"
     },
@@ -129,7 +129,7 @@
       "date": "January 2026",
       "description": "Developed a process manager in C for displaying, searching, and terminating Linux system processes via kernel system calls and /proc file system exploration.",
       "technologies": ["C", "Linux Kernel", "System Calls", "Signals"],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      "image": "/projects/process-manager.jpg",
       "github": "https://github.com/Nour-chargui",
       "demo": "https://drive.google.com/file/d/19FRjpdmPrKr8XECCsYAsGbXfwfW3trDz/view?usp=sharing"
     },
@@ -140,7 +140,7 @@
       "date": "November 2023",
       "description": "Utilized computer vision techniques and deep learning models to detect vehicles, extract license plate data via OCR, and track movements across video sequences.",
       "technologies": ["Computer Vision", "Deep Learning", "OCR"],
-      "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d?w=800&h=600&fit=crop",
+      "image": "/projects/vehiscan.jpg",
       "github": "https://github.com/Nour-chargui/vehiscan.git",
       "demo": "https://github.com/Nour-chargui/vehiscan"
     }

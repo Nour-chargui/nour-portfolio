@@ -4,11 +4,34 @@ import { motion } from "framer-motion";
 import { Section } from "./Section";
 import { ExternalLink, Github, Code2 } from "lucide-react";
 import resumeData from "@/data/resume.json";
+import { useState } from "react";
+
+// Fallback images
+const FALLBACK_IMAGES: Record<number, string> = {
+  1: "https://images.unsplash.com/photo-1550745165-9bc0b25272be?q=80&w=2070&auto=format&fit=crop",
+  2: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2070&auto=format&fit=crop",
+  3: "https://images.unsplash.com/photo-1523853138873-e14b1e470517?w=800&h=600&fit=crop",
+  4: "https://images.unsplash.com/photo-1629654297299-c85062213b94749775894758947589?w=800&h=600&fit=crop",
+  5: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+  6: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d?w=800&h=600&fit=crop",
+};
 
 export function Projects() {
   const { projects } = resumeData;
   const featuredProject = projects.find(p => p.isFeatured);
   const otherProjects = projects.filter(p => !p.isFeatured);
+  const [imageErrors, setImageErrors] = useState<Record<number, boolean>>({});
+
+  const handleImageError = (id: number) => {
+    setImageErrors(prev => ({ ...prev, [id]: true }));
+  };
+
+  const getImageSrc = (project: typeof projects[0]) => {
+    if (imageErrors[project.id]) {
+      return FALLBACK_IMAGES[project.id];
+    }
+    return project.image;
+  };
 
   return (
     <Section id="projects" title="PROJECTS">
@@ -60,8 +83,9 @@ export function Projects() {
                 className="cyber-image-container rounded-2xl group shadow-[0_0_30px_rgba(139,92,246,0.2)]"
               >
                 <img
-                  src={featuredProject.image}
+                  src={getImageSrc(featuredProject)}
                   alt={featuredProject.title}
+                  onError={() => handleImageError(featuredProject.id)}
                   className="w-full h-auto object-cover cyber-image"
                 />
               </motion.div>
@@ -84,8 +108,9 @@ export function Projects() {
           >
             <div className="cyber-image-container h-48">
               <img
-                src={project.image}
+                src={getImageSrc(project)}
                 alt={project.title}
+                onError={() => handleImageError(project.id)}
                 className="w-full h-full object-cover cyber-image"
               />
             </div>
